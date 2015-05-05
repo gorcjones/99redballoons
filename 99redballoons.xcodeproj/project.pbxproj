@@ -18,6 +18,7 @@
 		2E5C62A81AF981C500C5C218 /* RedBalloon2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E5C62A31AF981C500C5C218 /* RedBalloon2.jpg */; };
 		2E5C62A91AF981C500C5C218 /* RedBalloon3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E5C62A41AF981C500C5C218 /* RedBalloon3.jpg */; };
 		2E5C62AA1AF981C500C5C218 /* RedBalloon4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E5C62A51AF981C500C5C218 /* RedBalloon4.jpg */; };
+		2E5C62AC1AF984D000C5C218 /* balloons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5C62AB1AF984D000C5C218 /* balloons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		2E5C62A31AF981C500C5C218 /* RedBalloon2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon2.jpg; sourceTree = "<group>"; };
 		2E5C62A41AF981C500C5C218 /* RedBalloon3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon3.jpg; sourceTree = "<group>"; };
 		2E5C62A51AF981C500C5C218 /* RedBalloon4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon4.jpg; sourceTree = "<group>"; };
+		2E5C62AB1AF984D000C5C218 /* balloons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = balloons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				2E5C62801AF97D8C00C5C218 /* AppDelegate.swift */,
 				2E5C62821AF97D8C00C5C218 /* ViewController.swift */,
 				2E5C62841AF97D8C00C5C218 /* Main.storyboard */,
+				2E5C62AB1AF984D000C5C218 /* balloons.swift */,
 				2E5C62871AF97D8C00C5C218 /* Images.xcassets */,
 				2E5C62891AF97D8C00C5C218 /* LaunchScreen.xib */,
 				2E5C627E1AF97D8C00C5C218 /* Supporting Files */,
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E5C62831AF97D8C00C5C218 /* ViewController.swift in Sources */,
+				2E5C62AC1AF984D000C5C218 /* balloons.swift in Sources */,
 				2E5C62811AF97D8C00C5C218 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
