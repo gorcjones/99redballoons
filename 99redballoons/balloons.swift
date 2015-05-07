@@ -11,13 +11,13 @@ import UIKit
 
 struct Balloons {
     var number:Int
-    var image:UIImage(named:"")
+    var image = UIImage(named: "")
     
-    func number() -> Int {
+    func rNumber() -> Int {
         let randomNumber = Int(arc4random_uniform(UInt32(100)))
         return randomNumber
     }
-    func image() -> String {
+    func rImage() -> String {
         let randomNumber = Int(arc4random_uniform(UInt32(5)))
         var randomImage: String
         
