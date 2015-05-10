@@ -9,32 +9,33 @@
 import Foundation
 import UIKit
 
-struct Balloons {
-    var number:Int
+struct Balloon {
+//    var ballonArray
+    var number = 0
     var image = UIImage(named: "")
     
-    func rNumber() -> Int {
-        let randomNumber = Int(arc4random_uniform(UInt32(100)))
-        return randomNumber
-    }
-    func rImage() -> String {
-        let randomNumber = Int(arc4random_uniform(UInt32(5)))
-        var randomImage: String
-        
-        switch randomNumber {
-        case 0:
-            randomImage = "BerlinTVTower.jpg"
-        case 1:
-            randomImage = "RedBalloon1.jpg"
-        case 2:
-            randomImage = "RedBalloon2.jpg"
-        case 3:
-            randomImage = "RedBalloon3.jpg"
-        default:
-            randomImage = "RedBalloon4.jpg"
-        }
-        return randomImage
-        
-    }
+//    func rNumber() -> Int {
+//        let randomNumber = Int(arc4random_uniform(UInt32(100)))
+//        return randomNumber
+//    }
+//    func rImage() -> String {
+//        let randomNumber = Int(arc4random_uniform(UInt32(5)))
+//        var randomImage: String
+//        
+//        switch randomNumber {
+//        case 0:
+//            randomImage = "BerlinTVTower.jpg"
+//        case 1:
+//            randomImage = "RedBalloon1.jpg"
+//        case 2:
+//            randomImage = "RedBalloon2.jpg"
+//        case 3:
+//            randomImage = "RedBalloon3.jpg"
+//        default:
+//            randomImage = "RedBalloon4.jpg"
+//        }
+//        return randomImage
+//        
+//    }
 }
 
